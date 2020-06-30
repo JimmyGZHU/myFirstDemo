@@ -6,6 +6,8 @@ namespace{
     public:
         void fun(){
             return;
+            cout << "我在herbranch分支修改mybranch_test.cpp !!!";
+            cout << "我在mybranch分支修改mybranch_test.cpp !!!";
         }
     };
 }
