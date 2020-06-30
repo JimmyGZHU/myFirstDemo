@@ -7,5 +7,6 @@ void mythread(){
 }
 int main(){
     thread a(mythread);
+    a.join();
     return 0;
 }
